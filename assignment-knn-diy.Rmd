@@ -1,7 +1,7 @@
 ---
 title: "Assigment - kNN DIY"
 author:
-  - name author here - Author
+  - Cihan Acilov - Author
   - name reviewer here - Reviewer
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -12,10 +12,12 @@ output:
 
 
 ```{r}
-library(tidyverse)
-library(googlesheets4)
 library(class)
+library(tidyverse)
+library(magrittr)
+library(dplyr)
 library(caret)
+
 ```
 
 ---
@@ -24,18 +26,134 @@ Choose a suitable dataset from [this](https://github.com/HAN-M3DM-Data-Mining/as
 
 
 ## Business Understanding
-text and code here
+An accurate measurement of occupancy of a building has been recently estimated to save energy up to 30% to 40%. This is can be achieved by applying appropriate algorithms to control lighting system of the building. Information about the occupancy of a bulding has other applications as well, such us security and privacy: detecting occupancy accurately without using cameras is very interesting due to privacy concerns that are increasingly being important in the recent years (Candanedo Ibarra, Luis & Feldheim, Veronique, 2015)
 
 ## Data Understanding
-text and code here
+Firstly the data has to be imported into R Studio by using the URL or directly importing the CSV file. In this project the CSV file KNN-Occupancy is uploaded into the project directory and imported directly into RStudio.
 
+```{r}
+
+data <- read.csv("KNN-occupancy.csv") # data is imported from the CSV
+
+head(data)
+```
+
+
+
+
+```{r}
+
+dim(data)
+summary(data)
+```
+As shown above the data set contains 8143 rows and 7 variable/columns: 
+- date, 
+- Tempreture, 
+- Humidity, Light, 
+- CO2, 
+- HumidityRatio and
+- Occupancy. 
+
+```{r}
+
+summary(data)
+```
 ## Data Preparation
-text and code here
+In this section the data will be prepared:
+```{r}
+head(data)
+```
+As shown above the column [date] is measured in milliseconds, which means that this columns has only unique values. So these values can also be seen as the ID of this table and it is, for now, not possible to use in our model. In the future the [date] column can be used to create more features for our model: for example the values can be categorized into seasons/months/weeks. 
+
+The column [Occupancy] is out target column/label. This will be converted into factor in the next section. 
+
 
 ## Modeling
-text and code here
+
+The [date] columns is removed and the data set is assigned to another variable (df):
+
+
+```{r}
+df = data[-1]
+head(df)
+count_occp <- table(df$Occupancy)
+count_occp
+
+ratio_occp <- round(prop.table(count_occp)*100, digits=1)
+ratio_occp #   0=78.8, 1= 21.2 
+```
+
+
+
+Now that the [date] columns is removed, we can convert the label/target column into factor:
+
+
+
+
+```{r}
+
+df$Occupancy <- factor(df$Occupancy, levels = c("1", "0"), labels = c("OCCP", "UNOCCP")) %>% relevel("UNOCCP")
+
+head(df)
+dim(df)[2]
+
+summary(df)
+
+```
+When we look at the the output of summary(df), it can be clearly seen that some the values of each columns differ greatly in ratio. This means that that some variables/columns will have greater influence on the algorithm then other columns/variables. To avoid this inequality in ratio the all the columns excluding [Occupancy] will be normalized:
+
+
+
+
+```{r}
+normalize <- function(x) { # Function takes in a vector
+  return ((x - min(x)) / (max(x) - min(x))) # distance of item value - minimum vector value divided by the range of all vector values
+}
+
+df_n <- sapply(1:5,
+                    function(x) {
+                      normalize(df[,x])
+                    }) %>% as.data.frame()
+
+summary(df_n)
+
+```
+As it shown above the values of all 5 columns are normalized, and assigned to the variable called df_n. 
+
+Now it is time to create a training and a test dataset from df_n. After which labels ([Occupancy]) will be created from df (not normalized version of df_n):
+
+
+```{r}
+dim(df_n)
+traindf <- df_n[1:6500,]
+testdf <- df_n[6501:8143,]
+
+
+train_label <- df[1:6500, 6]
+test_label <- df[6501:8143,6]
+
+```
+The data is now splitted into testdf and traindf. For the target values train_label and test_label are created. Now it is time to apply KNN algorhtm: 
+
+
+
+```{r}
+df_test_predication <- knn(train = as.matrix(traindf), test = as.matrix(testdf), cl = as.matrix(train_label), k=90 )
+
+head(df_test_predication)
+table(test_label, df_test_predication)
+
+
+confusionMatrix(df_test_predication, test_label, positive = NULL, dnn = c("Pred", "True"))
+
+
+```
 
 ## Evaluation and Deployment
 text and code here
 
 reviewer adds suggestions for improving the model
+
+
+# References
+Candanedo Ibarra, Luis & Feldheim, Veronique. (2015). Accurate occupancy detection of an office room from light, temperature, humidity and CO2 measurements using statistical learning models. Energy and Buildings. 112. 10.1016/j.enbuild.2015.11.071. 
