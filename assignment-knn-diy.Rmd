@@ -138,7 +138,7 @@ The data is now splitted into testdf and traindf. For the target values train_la
 
 
 ```{r}
-df_test_predication <- knn(train = as.matrix(traindf), test = as.matrix(testdf), cl = as.matrix(train_label), k=90 )
+df_test_predication <- knn(train = as.matrix(traindf), test = as.matrix(testdf), cl = as.matrix(train_label), k=89 )
 
 head(df_test_predication)
 table(test_label, df_test_predication)
