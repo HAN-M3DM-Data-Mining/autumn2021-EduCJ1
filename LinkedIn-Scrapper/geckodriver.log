@@ -1,0 +1,402 @@
+1632013383918	geckodriver	INFO	Listening on 127.0.0.1:53333
+1632013383923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevWBVpE"
+1632013384930	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevWBVpE/search.json.mozlz4", (void 0)))
+1632013386733	Marionette	INFO	Listening on port 37465
+1632013386853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632013392224	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1632013478468	geckodriver	INFO	Listening on 127.0.0.1:38923
+1632013478475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilesywk6H"
+1632013479480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesywk6H/search.json.mozlz4", (void 0)))
+1632013481205	Marionette	INFO	Listening on port 38257
+1632013481313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632013483907	Marionette	INFO	Stopped listening on port 38257
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632013502583	geckodriver	INFO	Listening on 127.0.0.1:40237
+1632013502589	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezHePK5"
+1632013503563	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezHePK5/search.json.mozlz4", (void 0)))
+1632013505113	Marionette	INFO	Listening on port 43853
+1632013505215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632013507268	Marionette	INFO	Stopped listening on port 43853
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632013671952	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632013797297	Marionette	INFO	Stopped listening on port 37465
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632013969203	geckodriver	INFO	Listening on 127.0.0.1:57873
+1632013970218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezjrxSF"
+1632013971329	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezjrxSF/search.json.mozlz4", (void 0)))
+1632013972982	Marionette	INFO	Listening on port 44541
+1632013973055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632013976604	Marionette	INFO	Stopped listening on port 44541
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632013982247	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1632014034682	geckodriver	INFO	Listening on 127.0.0.1:57937
+1632014034689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXABXyG"
+1632014035682	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXABXyG/search.json.mozlz4", (void 0)))
+1632014037308	Marionette	INFO	Listening on port 35597
+1632014037425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632014040170	geckodriver	INFO	Listening on 127.0.0.1:57833
+1632014040177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileunHVcj"
+1632014041171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileunHVcj/search.json.mozlz4", (void 0)))
+1632014042777	Marionette	INFO	Listening on port 41957
+1632014042805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1632014044021	Marionette	INFO	Stopped listening on port 41957
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1632014062513	geckodriver	INFO	Listening on 127.0.0.1:48175
+1632014062517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileIJDc1t"
+1632014063509	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIJDc1t/search.json.mozlz4", (void 0)))
+1632014065122	Marionette	INFO	Listening on port 36997
+1632014065262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+1632014069157	Marionette	INFO	Stopped listening on port 36997
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632014219813	geckodriver	INFO	Listening on 127.0.0.1:33245
+1632014219822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeG0qYp"
+1632014220840	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeG0qYp/search.json.mozlz4", (void 0)))
+1632014222341	Marionette	INFO	Listening on port 43703
+1632014222464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1632014229079	Marionette	INFO	Stopped listening on port 35597
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.linkedin.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.linkedin.com"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632015359757	geckodriver	INFO	Listening on 127.0.0.1:33215
+1632015359764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilek06gfX"
+1632015360762	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek06gfX/search.json.mozlz4", (void 0)))
+1632015362405	Marionette	INFO	Listening on port 45087
+1632015362489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632015362514	geckodriver	INFO	Listening on 127.0.0.1:57611
+1632015362519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGMzBtt"
+1632015363532	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGMzBtt/search.json.mozlz4", (void 0)))
+1632015365208	Marionette	INFO	Listening on port 45513
+1632015365246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1632015372909	Marionette	INFO	Stopped listening on port 45087
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9yxk8ej2r6etydh66504obf3w, line 5061: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+1632015564052	geckodriver	INFO	Listening on 127.0.0.1:51977
+1632015564058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWnnKPn"
+1632015565067	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWnnKPn/search.json.mozlz4", (void 0)))
+1632015566658	Marionette	INFO	Listening on port 41645
+1632015566698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632015566728	geckodriver	INFO	Listening on 127.0.0.1:53927
+1632015566733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevHHIWs"
+1632015567788	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevHHIWs/search.json.mozlz4", (void 0)))
+1632015569373	Marionette	INFO	Listening on port 43671
+1632015569457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1632015602283	Marionette	INFO	Stopped listening on port 43703
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632015604189	Marionette	INFO	Stopped listening on port 45513
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632015606960	Marionette	INFO	Stopped listening on port 41645
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/domwalker24, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:506:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:113:18\nstop@resource://devtools/client/inspector/node-picker.js:176:18\n_destroyToolbox@resource://devtools/client/framework/toolbox.js:3761:24\ndestroy@resource://devtools/client/framework/toolbox.js:3699:10\ncloseToolbox@resource://devtools/client/framework/toolbox.js:3675:16\nonClick@resource://devtools/client/framework/components/ToolboxToolbar.js:456:26\ninvokeGuardedCallbackImpl@resource://devtools/client/shared/vendor/react-dom.js:74:10\ninvokeGuardedCallback@resource://devtools/client/shared/vendor/react-dom.js:111:29\ninvokeGuardedCallbackAndCatchFirstError@resource://devtools/client/shared/vendor/react-dom.js:125:25\nexecuteDispatch@resource://devtools/client/shared/vendor/react-dom.js:346:42\nexecuteDispatchesInOrder@resource://devtools/client/shared/vendor/react-dom.js:365:20\nexecuteDispatchesAndRelease@resource://devtools/client/shared/vendor/react-dom.js:462:29\nexecuteDispatchesAndReleaseTopLevel@resource://devtools/client/shared/vendor/react-dom.js:470:10\nforEachAccumulated@resource://devtools/client/shared/vendor/react-dom.js:444:8\nrunEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:598:21\nrunExtractedEventsInBatch@resource://devtools/client/shared/vendor/react-dom.js:606:19\nhandleTopLevel@resource://devtools/client/shared/vendor/react-dom.js:4272:30\nbatchedUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15752:12\nbatchedUpdates@resource://devtools/client/shared/vendor/react-dom.js:1882:12\ndispatchEvent@resource://devtools/client/shared/vendor/react-dom.js:4351:19\ninteractiveUpdates$1/<@resource://devtools/client/shared/vendor/react-dom.js:15803:14\nunstable_runWithPriority@resource://devtools/client/shared/vendor/react.js:617:12\ninteractiveUpdates$1@resource://devtools/client/shared/vendor/react-dom.js:15802:12\ninteractiveUpdates@resource://devtools/client/shared/vendor/react-dom.js:1901:10\ndispatchInteractiveEvent@resource://devtools/client/shared/vendor/react-dom.js:4328:21\n", "resource://devtools/shared/protocol/Front.js", 103))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 228: TypeError: grip is undefined
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 228: TypeError: grip is undefined
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 228: TypeError: grip is undefined
+console.warn: "Resource  of root-node was not found."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:570:5)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:570:5)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: "Error writing request: getGrids"
+console.warn: "Resource  of root-node was not found."
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 100ms)
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn3.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: "Error writing request: getGrids"
+console.error: "Error writing request: getGrids"
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn3.child4/customhighlighter145, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nhide@resource://devtools/client/fronts/highlighters.js:32:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:640:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:356:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:543:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_showBoxModel@resource://devtools/client/inspector/markup/markup.js:718:40\n_onMouseMove@resource://devtools/client/inspector/markup/markup.js:497:12\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+console.error: "Error writing request: getGrids"
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=9a0V4BfkQVkiC-yqqtm7f-Mcee-OBI5eHF6A2pGZogs-&CustomerId=658728e7-1632-412a-9815-fe53f53ec58b&PageId=P&w=8D97B21FE2951C7&mdt=1632024017967&rticks=1632024017789, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.paypal.com/webapps/hermes/static/js/post-robot.js, line 268: Error: No ack for postMessage cookie_check
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+JavaScript error: https://static-exp1.licdn.com/sc/h/3m3sbz3vl4pdws732jbtqe2p0, line 11941: TypeError: b is null
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn4.child4/pagestyle26 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new Error("Protocol error (noSuchActor): No such actor for ID: server0.conn4.child4/domnode663 from: server0.conn4.child4/domnode663", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript error: https://static-exp1.licdn.com/sc/h/2912n3vj9vgysx0q5r9dbht3m, line 6210: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/2912n3vj9vgysx0q5r9dbht3m, line 6210: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/2912n3vj9vgysx0q5r9dbht3m, line 6210: uncaught exception: Object
+console.error: "Error writing request: getGrids"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn5.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: "Error sending event: display-change"
+console.error: ({})
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 266"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:266:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:334:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:227:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:802:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:383:33
+form@resource://devtools/server/actors/inspector/node.js:207:7
+write@resource://devtools/shared/protocol/types.js:363:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:593:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.warn: "Got a mutation for an unexpected actor: server0.conn5.child4/domnode270, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 211 getMutations
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+1632024494536	geckodriver	INFO	Listening on 127.0.0.1:52295
+1632024494544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilev0W1NC"
+1632024495573	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev0W1NC/search.json.mozlz4", (void 0)))
+1632024497267	Marionette	INFO	Listening on port 37109
+1632024497382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632024497403	geckodriver	INFO	Listening on 127.0.0.1:54001
+1632024497408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGvnRqc"
+1632024498437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGvnRqc/search.json.mozlz4", (void 0)))
+1632024500195	Marionette	INFO	Listening on port 36651
+1632024500267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+1632024527989	Marionette	INFO	Stopped listening on port 37109
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632024530600	Marionette	INFO	Stopped listening on port 36651
+JavaScript error: chrome://browser/content/browser-customization.js, line 166: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1632024532734	Marionette	INFO	Stopped listening on port 43671
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632024540609	geckodriver	INFO	Listening on 127.0.0.1:48597
+1632024540618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile6O2leY"
+1632024541625	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6O2leY/search.json.mozlz4", (void 0)))
+1632024543040	Marionette	INFO	Listening on port 38555
+1632024543147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1632024543166	geckodriver	INFO	Listening on 127.0.0.1:37135
+1632024543171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQgVo1r"
+1632024544234	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQgVo1r/search.json.mozlz4", (void 0)))
+1632024545905	Marionette	INFO	Listening on port 35925
+1632024545994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/42minnyxv72287ubit8f0rqcr, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/16oica0av3vvhkbhgaqim5mkk, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6u9dlhkt4q92j75jvsglx2f0g, line 6455: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1peyr0tz7em8v7n88apslx1s8, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9m21ggkr0o7i62tt1c4itgxjj, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5lzug0c2s95yqfnumy298o94k, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/713twpe74fl4xx84p36anyqad, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/86iggxtwbnt6wg8b2cehlgize, line 6: unreachable code after return statement
+1632024869050	Marionette	INFO	Stopped listening on port 38555
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
